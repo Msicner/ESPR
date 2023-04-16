@@ -96,8 +96,8 @@ for i in range(NUM_ROUNDS):
 names = list(series_dict.keys())
 values = list(series_dict.values())
 
-#plt.bar(range(len(series_dict)), values, tick_label=names)
-#plt.show()
+plt.bar(range(len(series_dict)), values, tick_label=names)
+plt.show()
 
 print("Wins = ", wins)
 print("Out of = ", NUM_ROUNDS)
